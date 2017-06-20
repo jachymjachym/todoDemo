@@ -1,0 +1,155 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+  font-size: 10px;
+  background: #fafafa;
+}
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 11px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  body {
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  body {
+    font-size: 30px;
+  }
+}
+button,
+a {
+  font-family: 'Economica', sans-serif;
+}
+h1 {
+  font-family: 'Economica', sans-serif;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+input {
+  border: none;
+  outline: none;
+}
+button {
+  border: none;
+  box-shadow: 0em 0em 0.9em;
+  background: transparent;
+  padding: 0.3em 1em;
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+header > div {
+  overflow: hidden;
+  box-shadow: 0 0 1em #b1b1b1;
+}
+header > div .h1 {
+  float: left;
+  padding: 1em 1em;
+  text-shadow: 0 0.4em 0.6em #b1b1b1;
+  letter-spacing: .5em;
+  cursor: pointer;
+  font-size: 2em;
+  font-family: 'Economica', sans-serif;
+  font-weight: 600;
+}
+header > div .h1 div {
+  display: inline-block;
+}
+header > div .h1 div span {
+  position: relative;
+  display: block;
+  transition: transform 0.2s;
+}
+header > div .h1 .highlight span {
+  transform: translateY(-40%);
+  transition: transform 0.2s;
+}
+header > div > a,
+header > div p {
+  float: right;
+  border: none;
+  background: transparent;
+  padding: 1em;
+  font-size: 2em;
+  margin: 0;
+}
+.container {
+  max-width: 30em;
+  margin: 4em auto;
+  padding: 0 1em;
+}
+.container .textAnim {
+  text-align: center;
+  font-size: 3em;
+  margin: 4em 0;
+}
+.container form input {
+  width: 100%;
+  background: transparent;
+  margin: 1em 0 0;
+  padding: 0.5em 0;
+  font-size: 1.5em;
+}
+.container form span {
+  display: block;
+  height: 0.1em;
+  background: #000;
+  width: 0%;
+  transition: width 0.5s ease-out;
+}
+.container form span.faded {
+  width: 100%;
+  transition: width 0.5s ease-out;
+}
+.container ul {
+  font-size: 2.5em;
+  padding: 0;
+  list-style-type: none;
+}
+.container ul li {
+  padding: 0 1em;
+  background: url(../images/arrow.png) no-repeat left center;
+  background-size: 0.7em;
+}
+.container ul li span {
+  display: inline-block;
+  margin: 0 0.3em;
+  vertical-align: top;
+}
+.container ul li span.done {
+  text-decoration: line-through;
+}
+.container ul li .uncheck {
+  background: url(../images/repeatpng.png) no-repeat center center;
+  background-size: contain;
+  width: 1em;
+  height: 1.5em;
+}
+.container ul li .check {
+  background: url(../images/check.png) no-repeat center center;
+  background-size: contain;
+  width: 1em;
+  height: 1.5em;
+}
+.container ul li .remove {
+  background: url(../images/removepng.png) no-repeat center center;
+  background-size: contain;
+  width: 0.7em;
+  height: 1.5em;
+}
+.container ul + form input {
+  margin: 1em 0;
+  box-shadow: 0em 0em 1em;
+  padding: 0.5em;
+  box-sizing: border-box;
+  font-size: 1.5em;
+}
+.souhrn {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
